@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 50px 24px 0;
+}
+
+html {
+  font-size: 15px;
+}
+
+a:hover,
+.fa {
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 128px;
+  margin-bottom: 8.5rem;
+}
+
+.logo {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #6070ff;
+}
+
+.nav-links {
+  display: none;
+}
+
+.fa-bars {
+  color: #6070ff;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 2.66rem;
+  color: #344563;
+}
+
+.headline-alexandra_big {
+  display: none;
+}
+
+.description {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.066rem;
+  line-height: 1.6rem;
+  color: #344563;
+}
+
+.connect {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.066rem;
+  line-height: 1.6rem;
+  color: #7f8cff;
+}
+
+.icons {
+  display: flex;
+  gap: 0.66rem;
+}
+
+.icons .fa {
+  color: #505f79;
+}
+
+@media screen and (min-width: 375px) {
+  body {
+    width: 80%;
+    margin: 3.333rem auto;
+  }
+
+  .headline {
+    padding: 3.333rem;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.333rem;
+    color: #344563;
+  }
+
+  h1 {
+    color: #091e42;
+  }
+
+  .headline-alexandra_small {
+    display: none;
+  }
+
+  .headline-alexandra_big {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav-links {
+    display: flex;
+    gap: 32px;
+    gap: 2.133rem;
+  }
+
+  .fa-bars {
+    display: none;
+  }
+}
